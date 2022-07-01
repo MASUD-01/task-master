@@ -2,6 +2,87 @@
   text-align: center;
 }
 
+.navbars {
+  height: 10vh;
+  background-color: antiquewhite;
+}
+
+.list-div {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  /* background-color: #C689C6; */
+}
+
+ol {
+  max-width: 400px;
+  text-align: start;
+  margin: auto;
+
+}
+
+.calenders {
+  margin: auto;
+  max-width: 500px;
+  height: 500px;
+  background-color: bisque;
+}
+
+/* li {
+  text-align: center;
+  margin: auto;
+} */
+
+/* .navbars a {
+  margin-left: 10px;
+  font-size: 20px;
+} */
+
+.wide {
+  height: 62vh;
+}
+
+/* .navbars a:hover {
+  /* color: #f0f1f2; */
+/* font-size: 21px; */
+/* background-color: #282c34;
+  padding: 20px; 
+}*/
+
+input {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+p {
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 3px;
+
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #20bf6b;
+}
+
+li {
+  list-style-type: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +113,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
